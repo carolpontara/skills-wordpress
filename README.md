@@ -1,6 +1,5 @@
 
 
-```markdown
 # 🚀 Configuração do Ambiente e Instalação de Plugins WordPress com Docker
 
 ## 🛠️ 1. Instalação do Ambiente
