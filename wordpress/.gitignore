@@ -1,0 +1,62 @@
+# Arquivos e pastas básicas do sistema
+*.log
+*.sql
+*.sqlite
+*.zip
+*.tar.gz
+*.env
+.htaccess
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# Node.js (caso use para automação ou desenvolvimento)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos temporários e de cache
+.sass-cache/
+*.swp
+*.bak
+*.orig
+*.tmp
+*.idea/
+*.vscode/
+
+# WordPress Core
+wp-config.php
+wp-config-*.php
+xmlrpc.php
+wp-content/advanced-cache.php
+wp-content/debug.log
+wp-content/upgrade/
+wp-content/uploads/
+
+
+# Adicione exceções específicas
+!wp-content/plugins/seu-plugin-personalizado/
+!wp-content/themes/seu-tema-personalizado/
+
+# Cache e backups
+wp-content/cache/
+wp-content/backups/
+wp-content/backup-db/
+
+# Docker (se for usado)
+docker-compose.override.yml
+docker-compose.override.yaml
+
+# Arquivos do IDE
+.idea/
+.vscode/
+*.iml
+
+# Ferramentas locais
+vendor/
+composer.lock
